@@ -7,6 +7,7 @@ html{
   font-size: 100%;
 }
 body{
+  font-family: 'Varela Round', sans-serif;
   padding: 2rem 1rem;
 }
 
@@ -19,12 +20,13 @@ section{
   display: grid;
 }
 .box{
-  background-color: rgb(149, 162, 236);
+  background-color:	#c1cdcd;
   margin: 1rem 0;
   position: relative;
   top: 0;
   left: 0;
   width: auto;
+  border: solid 1px black;
 
   text-align: right;
 }
@@ -32,12 +34,24 @@ section{
   font-size: 125%;
   text-align:right;
   padding: .3rem 1rem ;
-  background-color: aqua;
+  border: black 1px solid;
+  border-top:none ;
+  border-right: none;
   display: inline-block;
 }
 .content{
   text-align: left;
   padding:.5rem;
+}
+#chicken{
+  background-color:	#ff7256;
+}
+#beef{
+  background-color:	#cd2626;
+  color: white;
+}
+#sushi{
+  background-color:	#ffc125;
 }
 
 
